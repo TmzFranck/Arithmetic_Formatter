@@ -16,6 +16,11 @@ To get started with the Arithmetic Formatter project, follow these steps:
    ```bash
    git clone https://github.com/TmzFranck/Arithmetic_Formatter.git
    ```
+2. Navigate to the project directory:
+
+    ```bash
+    cd arithmetic-formatter
+    ```
 
 ## Usage
 The Arithmetic Formatter can be used by calling the arithmetic_arranger function. Below is an example of how to use the function:
