@@ -34,7 +34,7 @@ formatted_problems = arithmetic_arranger(problems)
 print(formatted_problems)
 
 # With answers
-formatted_problems_with_answers = arithmetic_arranger(problems, solve=True)
+formatted_problems_with_answers = arithmetic_arranger(problems, True)
 print(formatted_problems_with_answers)
 ``` 
 

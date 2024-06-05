@@ -26,3 +26,10 @@ def arithmetic_arranger(problems, show_answers=False):
         line3 += '-' * (max_len + 2) + (('    ') if i < len(problems) - 1 else '')
         line4 += f'{str(result).rjust(max_len + 2)}' + (('    ') if i < len(problems) - 1 else '')   
     return line1 + line2 + ((line3 + line4) if show_answers else line3)
+
+
+problems = ["32 + 698", "3801 - 2", "45 + 43", "123 + 49"]
+
+formatted_problems_with_answers = arithmetic_arranger(problems, True)
+
+print(formatted_problems_with_answers)
