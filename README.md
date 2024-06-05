@@ -19,7 +19,7 @@ To get started with the Arithmetic Formatter project, follow these steps:
 2. Navigate to the project directory:
 
     ```bash
-    cd arithmetic-formatter
+    cd Arithmetic_Formatter
     ```
 
 ## Usage
